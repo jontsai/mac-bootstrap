@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend
+SCREENSAVER='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app'
+open -a $SCREENSAVER
